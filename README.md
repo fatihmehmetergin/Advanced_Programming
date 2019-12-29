@@ -30,11 +30,11 @@
 
 <h2 id="classworks">Homeworks</h2>
 
-<p>1.<a href="https://fatihmehmetergin.github.io/Advanced_Programming/HW/HW1/HW1">Poisson Probabilities</a></p>
+<p>HW1-<a href="https://fatihmehmetergin.github.io/Advanced_Programming/HW/HW1/HW1">Poisson Probabilities</a></p>
 
-<p>2.<a href="https://fatihmehmetergin.github.io/Advanced_Programming/HW/HW2/Database.html">Database</a></p>
+<p>HW2-<a href="https://fatihmehmetergin.github.io/Advanced_Programming/HW/HW2/Database.html">Database</a></p>
 
-<p>3.<a href="https://fatihmehmetergin.github.io/Advanced_Programming/HW/HW3/HW3.html">Animations</a></p>
+<p>HW3-<a href="https://fatihmehmetergin.github.io/Advanced_Programming/HW/HW3/HW3.html">Animations</a></p>
 
 <h2 id="classworks">Term Project</h2>
 
