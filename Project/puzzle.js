@@ -26,7 +26,9 @@ function yerlestir(rndList){
     }
 }
 
-function randomTaslar(){
+function randomTaslar()
+{
+    renkKaristir();
     var rndList = []
     while(true){
         rndList = []
@@ -90,4 +92,52 @@ function pushed(id)
         document.getElementById(bosTasId).firstChild.data = btn.firstChild.data;
         btn.firstChild.data = " "
     }
+    kontrol();
+    renkKontrol();
+}
+
+function kontrol(){
+    let element 
+    for (let i = 0; i < 9; i++) {
+        element= document.getElementById("b"+i);
+        if(element.innerText == (i+1).toString()) 
+        {
+            element.style.color="red";
+        }else {
+            element.style.color="blue";
+        }
+        
+    }
+}
+
+function renkKaristir(){
+    let element 
+    for (let i = 0; i < 9; i++) {
+        element= document.getElementById("b"+i);
+        if(element.innerText == (i+1).toString()) 
+        {
+            element.style.color="blue";
+        }
+       
+    }
+}
+
+function renkKontrol()
+{
+    if(document.getElementById("b0").style.color=="red"&&
+       document.getElementById("b1").style.color=="red"&&
+       document.getElementById("b2").style.color=="red"&&
+       document.getElementById("b3").style.color=="red"&&
+       document.getElementById("b4").style.color=="red"&&
+       document.getElementById("b5").style.color=="red"&&
+       document.getElementById("b6").style.color=="red"&&
+       document.getElementById("b7").style.color=="red")
+       {
+        alert("Tebrikler,Oyunu KAZANDINIZ");
+       }
+
+}
+function alertMesaj()
+{
+    alert("Tebrikler,Oyunu KAZANDINIZ");
 }
